@@ -174,11 +174,16 @@ h3 {
   margin: 12px 0 6px;
   font-size: 1rem;
   line-height: 1.4;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  font-family: Inter;
 }
 
 p {
   color: #aaa;
   font-size: 0.85rem;
+  padding-left: 10px;
+  
 }
 
 
@@ -325,7 +330,7 @@ p {
       font-size: 3rem;
       font-weight: 700;
       margin-bottom: 18px;
-      /* margin-left: 20px; */
+      margin-left: 20px;
       font-family: Inter;
     }
 
@@ -356,6 +361,8 @@ p {
       font-size: 0.95rem;
       margin-bottom: 28px;
       color: #bdbdbd;
+      padding-left: 15px;
+      font-family: Inter;
     }
 
     .li-hire-btn {
@@ -367,7 +374,11 @@ p {
       text-decoration: none;
       font-weight: 600;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-family: 'rejouice headline';
+      font-size:15px;
+      margin-left: 20px;
     }
+
 
     .li-hire-btn:hover {
       transform: translateY(-2px);
@@ -415,6 +426,7 @@ p {
         font-size: 20vw;
         letter-spacing: 10px;
         z-index: 2;
+        font-weight: 500;
 }
 
 .titlee h1::before {
@@ -429,10 +441,10 @@ p {
 
  
 .page5 > h1 {
-    font: 700 10.05vmax "Gilroy";
+    font: 700 10.05vmax "rejouice headline";
     font-weight: 900;
     line-height: 1.2;
-    word-spacing: -3px;
+    word-spacing: 2px;
     letter-spacing: -2px;
 }
 
@@ -441,15 +453,15 @@ p {
 }
 
 .mail a {
-    font-family: gilroy;
+     font-family: 'rejouice headline';
 }
 
 .instagram a {
-    font-family: gilroy;
+     font-family: 'rejouice headline';
 }
 
 .linkedin a {
-    font-family: gilroy;
+     font-family: 'rejouice headline';
 }
 
 .instagram {
@@ -471,14 +483,14 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 2.2vmax 0;
-    font-family: gilroy;
+     font-family: 'rejouice headline';
     font-weight: 600;
     font-size: 1.8vmax;
     /* font: normal 1.2vmax "Mont"; */
 }
 
 footer span {
-    font-family: gilroy;
+     font-family: 'rejouice headline';
 }
 
 .author {
