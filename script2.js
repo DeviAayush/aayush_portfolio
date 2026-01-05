@@ -26,3 +26,11 @@ document.querySelectorAll('.elem').forEach(function (elem) {
 });
 
 
+
+document.querySelectorAll('.card').forEach(card => {
+  card.addEventListener('click', () => {
+    const id = card.dataset.videoId;
+    window.open(`https://www.youtube.com/watch?v=${id}`, '_blank');
+  });
+});
+
