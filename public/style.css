@@ -7,13 +7,13 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: "gilroy";
+    /* font-family: "gilroy"; */
     /* background-color: rgb(255, 221, 158); */
 }
 
 @font-face {
   font-family: 'kajiro';
-  src: url('/public/fonts/Kajiro Bold.woff2') format("woff2");
+  src: url('/fonts/Kajiro Bold.woff2') format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@ html, body {
 
 @font-face {
   font-family: 'rejouice headline';
-  src: url('/public/fonts/Rejouice-Headline.woff2') format("woff2");
+  src: url('/fonts/Rejouice-Headline.woff2') format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@ html, body {
 
 @font-face {
   font-family: 'Inter';
-  src: url('/public/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2') format("woff2");
+  src: url('/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2') format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
